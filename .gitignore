@@ -1,0 +1,18 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Local Databases & Dynamic Storage
+*.db
+*.db.wal
+*.sqlite
+.duckdb/
+
+# Data Dumps & Cache
+.pytest_cache/
+.ipynb_checkpoints/
+data/
+
+# macOS System Files
+.DS_Store
