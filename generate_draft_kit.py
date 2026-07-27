@@ -4,7 +4,7 @@ import json
 import duckdb
 import pandas as pd
 import numpy as np
-from extract_projections import fetch_enriched_projections
+from scrape_projections import fetch_enriched_projections
 from market_consensus import get_sleeper_market_adp
 
 def generate_blended_top_100(db_path: str = "fantasy_analytics.db") -> dict:
